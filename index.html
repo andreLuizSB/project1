@@ -5,7 +5,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
@@ -14,7 +14,14 @@
         <header id="navigation">
             <div id="nav-menu">
                 <a href="/" id="logo">Cantinho da Roça</a>
-                <ul>
+                
+                <div class="mobile-menu">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </div>
+
+                <ul class="nav-list">
                     <li><a href="#">HOME</a></li>
                     <li><a href="#contact">CONTACT</a></li>
                     <li><a href="#about">ABOUT</a></li>
@@ -76,5 +83,6 @@
         </footer>
 
     </main>
+    <script src="mobile-navbar.js"></script>
 </body>
 </html>
